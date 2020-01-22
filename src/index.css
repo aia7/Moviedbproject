@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 * {
   margin:0;
   padding:0;
@@ -102,38 +103,39 @@ section{
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 25px;
-
 	color: #FFF;
 }
 
 .popup .content h2 {
 	font-size: 28px;
-	font-weight: 600;
+  font-weight: 600;
 }
 .popup .content h2 span {
 	font-weight: 300;
 	font-size: 20px;
 }
 
-.popup .content .rating {
-	margin-bottom: 30px;
+.popup .content .title-info {
+  margin-bottom: 30px;
 }
 
 .popup .content .plot {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0px -15px 30px;
+  margin: 0px -15px 30px;
 }
 
 .popup .content .plot img {
-	flex: 1 1 50%;
+  flex: 1 1 50%;
 	max-width: 300px;
-	padding: 0px 15px;
+  padding: 0px 15px;
 }
 
 .popup .content .plot p {
-	flex: 1 1 50%;
-	padding: 15px;
+  flex:1 1 50%; 
+  font-family: 'Lato', sans-serif;
+  padding: 15px;
+  
 }
 
 .popup .content .close {
